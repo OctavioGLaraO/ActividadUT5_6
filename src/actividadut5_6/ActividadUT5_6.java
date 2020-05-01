@@ -13,9 +13,7 @@ import java.io.File;
  */
 public class ActividadUT5_6 {//Clase ActividadUT5_6
 
-    private static int contTXT=0;//Declaracion de variables a usar
-    private static int contJAVA=0;
-    private static int contCLASS=0;
+    private static int contTXT=0,contJAVA=0,contCLASS=0;//Declaracion de variables a usar
     
     /**
      * @param args the command line arguments
