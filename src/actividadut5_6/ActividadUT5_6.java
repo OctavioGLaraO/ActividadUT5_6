@@ -21,6 +21,7 @@ public class ActividadUT5_6 {//Clase ActividadUT5_6
     public static void main(String[] args) {//main
         File archivoOrigen=new File("MiDir");//Instancia archivoOrigen de la clase File con la ruta del directorio MiDir
         Estadistica(archivoOrigen);//Ejecutamos el metodo Estadistica con parametro el File archivoOrigen
+        System.out.println("Estadisticas:");
         System.out.println("Extensiones: .txt: "+contTXT+", .java: "+contJAVA+" y .class: "+contCLASS);//Mostramos los resultados obtenidos
     }//Cierre del main
    
